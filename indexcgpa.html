@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CGPA Calculator</title>
+  <link rel="stylesheet" href="stylecgpa.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>CGPA Calculator</h1>
+    <p>Effortlessly calculate your semester's CGPA with accurate inputs.</p>
+  </header>
+  <main>
+    <form id="cgpa-form">
+       <!-- Chemistry -->
+    <h2>Chemistry</h2>
+    <label>Class Test (out of 30):</label>
+    <input type="number" id="chem-ct" max="30"><br>
+    <label>Sessional Exam (out of 50):</label>
+    <input type="number" id="chem-se" max="50"><br>
+    <label>Assignment (out of 20):</label>
+    <input type="number" id="chem-as" max="20"><br>
+    <label>Lab File (out of 100):</label>
+    <input type="number" id="chem-lab" max="100"><br>
+    <label>LPW Exam (out of 40):</label>
+    <input type="number" id="chem-lpw" max="40"><br>
+    <label>Semester End Exam (out of 100):</label>
+    <input type="number" id="chem-see" max="100"><br>
+
+    <!-- C Programming -->
+    <h2>C Programming</h2>
+    <label>Class Test (out of 30):</label>
+    <input type="number" id="cp-ct" max="30"><br>
+    <label>Sessional Exam (out of 50):</label>
+    <input type="number" id="cp-se" max="50"><br>
+    <label>Assignment (out of 20):</label>
+    <input type="number" id="cp-as" max="20"><br>
+    <label>Lab File (out of 100):</label>
+    <input type="number" id="cp-lab" max="100"><br>
+    <label>LPW Exam (out of 40):</label>
+    <input type="number" id="cp-lpw" max="40"><br>
+    <label>Semester End Exam (out of 100):</label>
+    <input type="number" id="cp-see" max="100"><br>
+
+    <!-- Statistics -->
+    <h2>Statistics</h2>
+    <label>Class Test (out of 30):</label>
+    <input type="number" id="stats-ct" max="30"><br>
+    <label>Sessional Exam (out of 50):</label>
+    <input type="number" id="stats-se" max="50"><br>
+    <label>Assignment (out of 20):</label>
+    <input type="number" id="stats-as" max="20"><br>
+    <label>Lab File (out of 100):</label>
+    <input type="number" id="stats-lab" max="100"><br>
+    <label>LPW Exam (out of 40):</label>
+    <input type="number" id="stats-lpw" max="40"><br>
+    <label>Semester End Exam (out of 100):</label>
+    <input type="number" id="stats-see" max="100"><br>
+
+    <!-- Mathematics I -->
+    <h2>Mathematics I</h2>
+    <label>Class Test (out of 30):</label>
+    <input type="number" id="math-ct" max="30"><br>
+    <label>Sessional Exam (out of 50):</label>
+    <input type="number" id="math-se" max="50"><br>
+    <label>Assignment (out of 30):</label>
+    <input type="number" id="math-as" max="30"><br>
+    <label>Semester End Exam (out of 100):</label>
+    <input type="number" id="math-see" max="100"><br>
+
+    <!-- Written Communication -->
+    <h2>Written Communication</h2>
+    <label>Class Test (out of 30):</label>
+    <input type="number" id="wc-ct" max="30"><br>
+    <label>Sessional Exam (out of 50):</label>
+    <input type="number" id="wc-se" max="50"><br>
+    <label>Assignment (out of 50):</label>
+    <input type="number" id="wc-as" max="50"><br>
+    <label>Semester End Exam (out of 100):</label>
+    <input type="number" id="wc-see" max="100"><br>
+
+    <!-- Contemporary India -->
+    <h2>Contemporary India</h2>
+    <label>Class Test (out of 30):</label>
+    <input type="number" id="ci-ct" max="30"><br>
+    <label>Sessional Exam (out of 50):</label>
+    <input type="number" id="ci-se" max="50"><br>
+    <label>Assignment (out of 30):</label>
+    <input type="number" id="ci-as" max="30"><br>
+    <label>Semester End Exam (out of 100):</label>
+    <input type="number" id="ci-see" max="100"><br>
+
+    <!-- Engineering Drawing & Workshop -->
+    <h2>Engineering Drawing & Workshop</h2>
+    <label>Class Test (out of 20):</label>
+    <input type="number" id="edw-ct" max="20"><br>
+    <label>Sessional Exam (out of 50):</label>
+    <input type="number" id="edw-se" max="50"><br>
+    <label>Assignment (out of 40):</label>
+    <input type="number" id="edw-as" max="40"><br>
+    <label>ED Sheets & CAD Exercises (out of 30):</label>
+    <input type="number" id="ed-sheets" max="30"><br>
+    <label>Workshop Exercises (out of 50):</label>
+    <input type="number" id="ws-exercises" max="50"><br>
+    <label>LPW Exam (out of 40):</label>
+    <input type="number" id="edw-lpw" max="40"><br>
+      <button type="button" onclick="calculateCGPA()">Calculate CGPA</button>
+    </form>
+    <h2 id="result"></h2>
+  </main>
+  <footer>
+    <p>Created by <a href="https://instagram.com/yash_4348s" target="_blank">@yash_4348s</a></p>
+  </footer>
+  <script src="scriptcgpa.js"></script>
+</body>
+</html>
